@@ -1,0 +1,18 @@
+:root{
+    --crema: #eff3cd; 
+    --verbajo:#b2d5ba;
+    --primario:#61ada0;
+    --secundario: #248f8d;
+    --oscuro: #605063;
+  
+    --fuente-principal: 3.8rem;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+/*ESTO ES PARA QUE NO AFECTE EL PADDIG O MARGIN EN EL WIDTH*/
+*,*:before, *:after{
+    box-sizing: inherit;
+}
