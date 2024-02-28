@@ -1,0 +1,146 @@
+[1mdiff --git a/img/Consultorio.jpg b/img/Consultorio.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..938b1eb[m
+Binary files /dev/null and b/img/Consultorio.jpg differ
+[1mdiff --git a/img/Doctor.jpg b/img/Doctor.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a2c524d[m
+Binary files /dev/null and b/img/Doctor.jpg differ
+[1mdiff --git a/img/DoctorPaciente.jpg b/img/DoctorPaciente.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4accc50[m
+Binary files /dev/null and b/img/DoctorPaciente.jpg differ
+[1mdiff --git a/img/Exterior_1.jpg b/img/Exterior_1.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2bf3af0[m
+Binary files /dev/null and b/img/Exterior_1.jpg differ
+[1mdiff --git a/img/Exterior_2.jpg b/img/Exterior_2.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e92b2f2[m
+Binary files /dev/null and b/img/Exterior_2.jpg differ
+[1mdiff --git a/img/Logo - copia.jpg b/img/Logo - copia.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dd0fc45[m
+Binary files /dev/null and b/img/Logo - copia.jpg differ
+[1mdiff --git a/img/Logo.jpg b/img/Logo.jpg[m
+[1mindex dd0fc45..d404898 100644[m
+Binary files a/img/Logo.jpg and b/img/Logo.jpg differ
+[1mdiff --git a/img/Quirofano_1.jpg b/img/Quirofano_1.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2f6515c[m
+Binary files /dev/null and b/img/Quirofano_1.jpg differ
+[1mdiff --git a/img/Quirofano_2.jpg b/img/Quirofano_2.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..42253da[m
+Binary files /dev/null and b/img/Quirofano_2.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 047b904..567aec4 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,9 +1,32 @@[m
+ <!DOCTYPE html>[m
+[31m-<html lang="es">[m
+[32m+[m[32m<html lang="es-MX">[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    [m
+[32m+[m[32m    <meta[m[41m [m
+[32m+[m[32m        name="author"[m[41m [m
+[32m+[m[32m        content="Alfonso Meza Martinez"[m[41m [m
+[32m+[m[32m    />[m
+[32m+[m[32m    <meta[m
+[32m+[m[32m        name="description"[m
+[32m+[m[32m        content="La clinica San Lorenzo, muestra todos sus servicios y especialidades que puede proporcionar a sus clientes, encontrado en la Heróica Ciudad de Juchitán de Zaragoza, Oaxaca, México."[m[41m [m
+[32m+[m[32m    />[m
+[32m+[m[32m    <!-- Metadatos de Facebook -->[m
+[32m+[m
+[32m+[m[32m    <meta[m
+[32m+[m[32m  property="og:image"[m
+[32m+[m[32m  content="https://www.facebook.com/photo/?fbid=379983987654794&set=a.379983967654796" />[m
+[32m+[m[41m  [m
+[32m+[m[32m  <meta[m
+[32m+[m[32m  property="og:description"[m
+[32m+[m[32m  content="Clínica de especialidades San Lorenzo, te atenderemos con excelente médica y calidez humana que mereces.[m
+[32m+[m[32m  Con servicios de hospitalización, cesáreas, partos, cirugías de apéndice,vesículas, hernias, realizamos electrocardiograma, ultrasonidos.[m
+[32m+[m[32m  Contamos con médico general, médico internista, médico obstetra, médico traumatólogo." />[m
+[32m+[m[32m<meta property="og:title" content="Clínica San Lorenzo, excelencia médica con calidez humana" />[m
+[32m+[m[32m  <!-- Fin de metadatos de Facebook -->[m
+[32m+[m
+[32m+[m[32m  <meta name="twitter:title" content="Clínica San Lorenzo, excelencia médica con calidez humana" />[m
+[32m+[m
+     <title>Clinica San Lorenzo</title>[m
+ [m
+     <link rel="icon" href="img/Logo.jpg" type="image/jpg">[m
+[36m@@ -15,6 +38,173 @@[m
+ [m
+ </head>[m
+ <body>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <header class="headerPrincipal" id="headerInicio">[m
+[32m+[m[32m        <div class="nav-bg">[m
+[32m+[m[32m            <nav class="navegacion-principal contenedor">[m
+[32m+[m[32m                <a href="index.html"><img src="img/Logo.jpg" alt="Logo de Clínica Médica San Lorenzo"></a>[m
+[32m+[m[32m                <a class="nav-a" title="Página inicio" href="#headerInicio">Inicio</a>[m
+[32m+[m[32m                <a class="nav-a" title="Sección de servicios" href="#sectionServicios">Servicios</a>[m
+[32m+[m[32m                <a class="nav-a" title="Sección de especialidades" href="#sectionEspecialidades">Especialidades</a>[m
+[32m+[m[32m                <a class="nav-a" title="Sección de contacto" href="#sectionConocenos">Conocenos</a>[m
+[32m+[m[32m                <a class="nav-a" title="Sección de contacto" href="#sectionContacto">Contacto</a>[m
+[32m+[m[32m            </nav>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m    <section class="sectionImg">[m
+[32m+[m[32m            <img src="img/Doctor.jpg" alt="Doctor cruzando las manos">[m
+[32m+[m[32m            <img src="img/DoctorPaciente.jpg" alt="Doctor tocando la mano de un paciente">[m
+[32m+[m[32m            <img src="img/Doctor.jpg" alt="Doctor cruzando las manos">[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <main class="contendor">[m
+[32m+[m[32m        <section>[m
+[32m+[m[32m            <h1>Bienvenido a Clínica San Lorenzo</h1>[m
+[32m+[m[32m            <h2>Te atenderemos con excelencia médica y calidez humana</h2>[m
+[32m+[m[32m        </section>[m
+[32m+[m[41m       [m
+[32m+[m[32m        <section id="sectionServicios">[m
+[32m+[m[32m            <h3>Servicios</h3>[m
+[32m+[m[32m            <article>[m
+[32m+[m[32m                <img src="" alt="Imagen de hospitalizacion">[m
+[32m+[m[32m                <h4>Hospitalización</h4>[m
+[32m+[m[32m                <p>Contamos con todas las amenidades para que su estancia en el hospital sea lo más agradable posible.</p>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li>Habitaciones climatizadas e iluminadas</li>[m
+[32m+[m[32m                    <li>Acceso Wifi</li>[m
+[32m+[m[32m                    <li>Televisión</li>[m
+[32m+[m[32m                    <li>Baño completo.</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <p>Transformamos el cuidado de la salud en una experiencia memorable y positiva.</p>[m
+[32m+[m[32m            </article>[m
+[32m+[m[41m            [m
+[32m+[m[32m            <article>[m
+[32m+[m[32m                <img src="" alt="Imagen Cirugía de nacimiento">[m
+[32m+[m[32m                <h4>Cesáreas, partos, histerectomía</h4>[m
+[32m+[m[32m                <p>Ha llegado el momento, recibe a tu bebé en Clinica San Lorenzo. Contamos con atractivos paquetes de maternidad para parto natural o cesárea.</p>[m
+[32m+[m[32m                <p>Ten la confianza de que tú y tu bebé se encontrarán en el lugar indicado.</p>[m
+[32m+[m[32m            </article>[m
+[32m+[m[32m            <article>[m
+[32m+[m[32m                <img src="img/Quirofano_2.jpg" alt="Imagen de Cirugía">[m
+[32m+[m[32m                <h4>Cirugía de apéndice, vesículas, hernias</h4>[m
+[32m+[m[32m                <p>Contamos con médicos encargados del diagnóstico y tratamiento de patologías que se resuelven mediante procedimientos quirúrgicos.</p>[m
+[32m+[m[32m            </article>[m
+[32m+[m[32m            <article>[m
+[32m+[m[32m                <img src="" alt="Imagen de diagnósticos">[m
+[32m+[m[32m                <h3>Diagnóstico por imagen</h3>[m
+[32m+[m[32m                <p>Estamos altamente capacitados para la realización de diagnósticos precisos a través de imagen médica:</p>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li>Ultrasonidos</li>[m
+[32m+[m[32m                    <li>Electrocardiogramas</li>[m
+[32m+[m[32m                    <li>Rayos X</li>[m
+[32m+[m[32m                    <li>Tomografía</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <p>Realizamos ultrasonido y electrocardiograma en la clínica</p>[m
+[32m+[m[32m            </article>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <section id="sectionEspecialidades">[m
+[32m+[m[32m            <h3>Especialidades</h3>[m
+[32m+[m[
